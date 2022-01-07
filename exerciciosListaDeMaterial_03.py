@@ -27,4 +27,4 @@ for i in range(len(produtos)):  # percorrendo todos os lementos da lista produto
     subtotal = quantidade[i] * valor[i]  # subtotal quantidade x valor unitário de cada produto
     print(f'Subtotal.....: {subtotal}')  # imrpimindo a variável subtotal
     soma += subtotal  # variável soma que recebe todos os subtotais
-print(f'\nCusto total.....: {soma}')  # imprimindo o cuto total dos produtos
+print(f'\nCusto total.....: {soma}')  # imprimindo o custo total dos produtos

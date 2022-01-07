@@ -21,6 +21,3 @@ for i in range(len(material)):
     print(f'Custo reposição: {round(subtotal,2)}')
     soma += subtotal
 print(f'\nCusto total reposição: {round(soma,2)}')
-
-
-
