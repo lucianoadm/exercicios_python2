@@ -20,7 +20,7 @@ for x in range(len(produto)):
     print(f'Validade vencida? {validade[x]}')
     if validade[x] == 's':
         print(f'Preço de venda normal: {preco_venda[x]}')
-        print(f'Preço de venda com desconto: {preco_venda[x]*0.9} ')
+        print(f'Preço de venda com desconto: {preco_venda[x]*0.9} ')  # desconto de 10%
     else:
         print(f'Esse produto ainda está na validade!')
         print(f'Preço de venda....: {preco_venda[x]}')
