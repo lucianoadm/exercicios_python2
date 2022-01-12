@@ -60,5 +60,3 @@ if len(valores) > 0:
     print(f'Equipamento mais caro.....: {max(valores)}')
     print(f'Equipamento mais barato...: {min(valores)}')
     print(f'Total dos equipamentos...: {sum(valores)}')
-
-
